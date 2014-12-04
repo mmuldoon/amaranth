@@ -45,8 +45,7 @@ cycles_exists = False
 
 def check_cycles_exists():
     global cycles_exists
-    cycles_exists = ('cycles' in dir(bpy.types.Scene))
-    return cycles_exists
+    cycles_exists = ('cycles' in dir(bpy.types.Scene))    return cycles_exists
 
 
 check_cycles_exists()
